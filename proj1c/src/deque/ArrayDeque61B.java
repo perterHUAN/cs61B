@@ -10,7 +10,7 @@ public class ArrayDeque61B<T> implements Deque61B<T> {
     private T[] store = (T[]) new Object[initialSize];
     private int frontIndex = 1;
     private int backIndex = 0;
-    private int size = 0;
+    protected int size = 0;
     private double RFECTOR = 1.5; // 扩容
 
     public ArrayDeque61B() {
